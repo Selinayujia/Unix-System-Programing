@@ -1,0 +1,14 @@
+Client is the same expect:
+1. added some error checking
+2. when connection to server succeed, client will send its username to server
+3. when quitchat with enter typed, it will exit
+
+To run the program
+make server
+make client
+server [username] [portnumber](optional)
+client [username] [ipaddress](optional) [portnumber](optional)
+
+for client to leave, type quitchat with an enter
+
+
